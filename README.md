@@ -9,7 +9,6 @@
 
 - asyncio
 - selenium
-- beautifulsoup4
 - aiogram
 
 
