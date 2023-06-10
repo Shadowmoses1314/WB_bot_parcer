@@ -1,0 +1,12 @@
+version: '3'
+services:
+  bot:
+    build:
+      context: .
+    volumes:
+      - ./chromedriver:/app/chromedriver
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python main.py
+    
